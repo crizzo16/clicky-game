@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.jumbotron {
+  border: 7px solid #00695c;
+  border-radius: 2px 2px 0 0;
+  padding: 2%;
+  margin: 20px auto;
+}
+
+.img-width {
+  width: 100%;
+  height: auto;
+}
+
+.card-size {
+  max-width: 15vw;
+}
+
+/* Tablet sizing */
+@media screen and (max-width: 992px) {
+  .card-size {
+    max-width: 25vw;
+  }
+}
+
+/* Phone sizing */
+@media screen and (max-width: 600px) {
+}
+
+.card-size:hover {
+  border: 7px solid #4db6ac;
+}
