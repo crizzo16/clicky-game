@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "../App.css";
 import CharacterCard from "./CharacterCard.js";
 import Results from "./Results.js";
 import chars from "../chars.json";
+import "../css/reset.css";
 import "../css/materialize.css";
 import "../css/style.css";
 
@@ -83,7 +83,7 @@ class Game extends Component {
           reset={this.reset}
         />
         <div className="container flex wrap">
-          {this.state.chars.map(character => (
+          {this.state.options.map(character => (
             <CharacterCard
               id={character.id}
               name={character.name}
