@@ -7,7 +7,7 @@ import "../css/style.css";
 const Results = props => {
   return (
     <div className="container teal lighten-4 jumbotron">
-    <h5><strong>Click on all the characters without clicking on anyone twice!</strong></h5>
+    <h5 className="flex"><strong>Click on all the characters without clicking on anyone twice!</strong></h5>
       <div className="flex wrap">
         <h5>Current Score: {props.currPoints}</h5>
         <h5>Top Score: {props.topPoints}</h5>
